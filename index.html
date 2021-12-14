@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <form>
+        Numero 1: <input type="text" id='value1'>
+        Numero 2: <input type="text" id='value2'>
+        Operación:
+        <select id='operator'>
+            <option value="sum">Suma</option>
+            <option value="res">Resta</option>
+            <option value="div">Division</option>
+            <option value="mul">Multiplicacion</option>
+        </select>
+        <button type='button' onclick="calc()">Calculate</button>
+    </form>
+
+    <div id= 'result'></div>
+
+    <script src="Calculator.js"></script>
+</body>
+</html>
